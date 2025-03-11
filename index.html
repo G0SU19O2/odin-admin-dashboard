@@ -3,10 +3,187 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Project Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
-    
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="logo">
+                <span class="material-icons">dashboard</span>
+                <h1>Dashboard</h1>
+            </div>
+            
+            <div class="nav-main">
+                <ul>
+                    <li><span class="material-icons">home</span> Home</li>
+                    <li><span class="material-icons">account_circle</span> Profile</li>
+                    <li><span class="material-icons">message</span> Messages</li>
+                    <li><span class="material-icons">history</span> History</li>
+                    <li><span class="material-icons">task</span> Tasks</li>
+                    <li><span class="material-icons">groups</span> Communities</li>
+                </ul>
+            </div>
+            
+            <div class="nav-secondary">
+                <ul>
+                    <li><span class="material-icons">settings</span> Settings</li>
+                    <li><span class="material-icons">help</span> Support</li>
+                    <li><span class="material-icons">privacy_tip</span> Privacy</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Header -->
+        <div class="header">
+            <div class="search-bar">
+                <span class="material-icons">search</span>
+                <input type="text" placeholder="Search...">
+            </div>
+            
+            <div class="user-info">
+                <span class="material-icons">notifications</span>
+                <div class="avatar small"></div>
+                <p class="username">Morgan Oakley</p>
+            </div>
+            
+            <div class="user-greeting">
+                <div class="avatar large"></div>
+                <div class="greeting-text">
+                    <p>Hi there,</p>
+                    <h2>Morgan Oakley (@morgan)</h2>
+                </div>
+            </div>
+            
+            <div class="header-buttons">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+        </div>
+        
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- Projects Section -->
+            <div class="projects">
+                <h3>Your Projects</h3>
+                <div class="projects-grid">
+                    <div class="card">
+                        <h4>Super Cool Project</h4>
+                        <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                        <div class="card-actions">
+                            <span class="material-icons">star_border</span>
+                            <span class="material-icons">visibility</span>
+                            <span class="material-icons">share</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>Less Cool Project</h4>
+                        <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem purus, dignissim ut sapien in, varius pellentesque lacus.</p>
+                        <div class="card-actions">
+                            <span class="material-icons">star_border</span>
+                            <span class="material-icons">visibility</span>
+                            <span class="material-icons">share</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>Impossible App</h4>
+                        <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
+                        <div class="card-actions">
+                            <span class="material-icons">star_border</span>
+                            <span class="material-icons">visibility</span>
+                            <span class="material-icons">share</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>Easy Peasy App</h4>
+                        <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsan aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>
+                        <div class="card-actions">
+                            <span class="material-icons">star_border</span>
+                            <span class="material-icons">visibility</span>
+                            <span class="material-icons">share</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>Ad Blocker</h4>
+                        <p>Quisque eget rutrum nisl. Nam augue justo, cursus vitae metus vel, pharetra hendrerit felis. Aliquam sed malesuada eros.</p>
+                        <div class="card-actions">
+                            <span class="material-icons">star_border</span>
+                            <span class="material-icons">visibility</span>
+                            <span class="material-icons">share</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h4>Money Maker</h4>
+                        <p>Praesent convallis, libero quis congue elementum, nunc ante faucibus sapien, ac scelerisque tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.</p>
+                        <div class="card-actions">
+                            <span class="material-icons">star_border</span>
+                            <span class="material-icons">visibility</span>
+                            <span class="material-icons">share</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Sidebar Content -->
+            <div class="sidebar-content">
+                <div class="announcements">
+                    <h3>Announcements</h3>
+                    <div class="announcements-container">
+                        <div class="announcement">
+                            <h5>Site Maintenance</h5>
+                            <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue...</p>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="announcement">
+                            <h5>Community Share Day</h5>
+                            <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor...</p>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="announcement">
+                            <h5>Updated Privacy Policy</h5>
+                            <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="trending">
+                    <h3>Trending</h3>
+                    <div class="trending-container">
+                        <div class="trending-item">
+                            <div class="avatar small avatar-1"></div>
+                            <div class="trending-info">
+                                <p class="tag">@tegan</p>
+                                <p class="description">World Peace Builder</p>
+                            </div>
+                        </div>
+                        <div class="trending-item">
+                            <div class="avatar small avatar-2"></div>
+                            <div class="trending-info">
+                                <p class="tag">@morgan</p>
+                                <p class="description">Super Cool Project</p>
+                            </div>
+                        </div>
+                        <div class="trending-item">
+                            <div class="avatar small avatar-3"></div>
+                            <div class="trending-info">
+                                <p class="tag">@kendall</p>
+                                <p class="description">Life Changing App</p>
+                            </div>
+                        </div>
+                        <div class="trending-item">
+                            <div class="avatar small avatar-4"></div>
+                            <div class="trending-info">
+                                <p class="tag">@alex</p>
+                                <p class="description">No Traffic Maker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
